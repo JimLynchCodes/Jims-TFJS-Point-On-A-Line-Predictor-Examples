@@ -1,0 +1,40 @@
+{
+  "name": "1-super-simple-2x-1",
+  "version": "0.0.1",
+  "description": "a cool tensorflow.js project for predicting baseball outcomes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/trained-model-creator.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "train-model": "eacho \"Derp! I don't think this is the correct command...\" && exit 1",
+    "predict": "eacho \"Derp! I don't think this is the correct command either...\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTheMan/MLBuster3000.git"
+  },
+  "author": "Jim Lynch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JimTheMan/MLBuster3000/issues"
+  },
+  "homepage": "https://github.com/JimTheMan/MLBuster3000#readme",
+  "dependencies": {
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@tensorflow/tfjs": "^0.15.3",
+    "@tensorflow/tfjs-node": "^0.3.1",
+    "asyncawait": "^1.0.8",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "install": "^0.12.2",
+    "tnpm": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "webpack": "^3.12.0"
+  }
+}
