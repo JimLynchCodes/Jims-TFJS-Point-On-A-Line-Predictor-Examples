@@ -1,5 +1,5 @@
-const tf = require("@tensorflow/tfjs");
-require('@tensorflow/tfjs-node');
+require("@tensorflow/tfjs");
+const tf = require('@tensorflow/tfjs-node');
 
 const nowString = (new Date()).toISOString().replace(/-/g,"");
 const locationToSaveModel = 'file://./src/pretrained-models/trained-model-' + nowString + '.json'

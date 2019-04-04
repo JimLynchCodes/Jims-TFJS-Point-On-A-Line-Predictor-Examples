@@ -22,10 +22,12 @@
   "dependencies": {
     "@babel/preset-es2017": "^7.0.0-beta.53",
     "@tensorflow/tfjs": "^0.15.3",
-    "@tensorflow/tfjs-node": "^0.3.1",
+    "@tensorflow/tfjs-node": "^0.3.2",
     "asyncawait": "^1.0.8",
     "babel-preset-env": "^7.0.0-beta.3",
+    "i": "^0.3.6",
     "install": "^0.12.2",
+    "npm": "^6.9.0",
     "tnpm": "^1.0.6"
   },
   "devDependencies": {
