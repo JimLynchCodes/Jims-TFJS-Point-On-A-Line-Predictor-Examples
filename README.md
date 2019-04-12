@@ -1,6 +1,6 @@
 # Jims-TFJS-Point-On-A-Line-Predictor-Examples
 Some tensorflow.js examples of models that predict points of lines...
-
+ 
 ## How To Use These Examples
 Each folder in this root diretory is a different project with its own package.json, source files, etc.
 
